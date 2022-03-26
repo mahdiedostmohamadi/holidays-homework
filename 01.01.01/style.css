@@ -1,0 +1,91 @@
+/* body {
+    background: lightblue;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+img{
+    
+}
+.button{
+    width: 100px;
+    padding: 50px 0;
+    line-height: 0;
+    margin: 60px auto;
+    background: pink;
+    color:purple;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+.button:hover{
+    background:  rgb(255, 168, 6);
+} */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.grass,
+.sky,
+.road {
+    position: relative;
+}
+
+.sky {
+    height: 40%;
+    background: skyblue;
+}
+
+.grass {
+    height: 30%;
+    background: seagreen;
+}
+
+.road {
+    height: 30%;
+    background: dimgrey;
+    box-sizing: border-box;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+    width: 100%;
+}
+
+.lines {
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+
+.mario {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    animation-name: drive;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    /* animation-delay: 3s; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes drive {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(1700px);
+    }
+}
