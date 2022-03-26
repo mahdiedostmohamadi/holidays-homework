@@ -80,8 +80,9 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: linear; */
     animation-fill-mode: both;
-    animation:drive 3s 1s linear infinite alternate-reverse,jump 0.5s 1s linear infinite normal
-    /* funny! :D */
+    animation:drive 3s 1s linear infinite normal,jump 0.5s 1s linear infinite normal
+    /* funny! :D 
+    I didn't find a pixel horse.*/
 }
 .luigi {
     position: absolute;
