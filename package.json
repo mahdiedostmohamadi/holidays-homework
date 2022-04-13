@@ -6,7 +6,11 @@
   "description": "I created a repository for all the holidays homework\r each day is a folder named with the current date.",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.50.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
