@@ -1,8 +1,12 @@
 {
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
   "name": "holidays-homework",
-  "version": "1.0.0",
   "description": "I created a repository for all the holidays homework\r each day is a folder named with the current date.",
+  "version": "1.0.0",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,10 +19,5 @@
   "bugs": {
     "url": "https://github.com/mahdiedostmohamadi/holidays-homework/issues"
   },
-  "homepage": "https://github.com/mahdiedostmohamadi/holidays-homework#readme",
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.49.11"
-  }
+  "homepage": "https://github.com/mahdiedostmohamadi/holidays-homework#readme"
 }
