@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bfaea5d45e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="img/logo.png" class="logo" />
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Hire Me</a></li>
+        </ul>
+        <img src="img/moon.png" id="icon" alt="">
+      </nav>
+
+      <div class="info">
+        <h1>I'm Kate Amelia</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facilis
+          dolorem itaque incidunt<br />
+          nisi recusandae illum error libero et consectetur! Excepturi, a quae.
+          Corporis, quis. Iure enim optio minima perspiciatis?
+        </p>
+        <a href="">Download CV</a>
+      </div>
+      <div class="img-box">
+        <img src="img/pattern.png" class="backimg" alt="" />
+        <img src="img/girl.png" class="mainimg" alt="" />
+      </div>
+      <div class="social-links">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-behance"></i></a>
+          <a href=""><i class="fa-solid fa-basketball"></i></a>
+      </div>
+    </div>
+
+
+
+
+    <script>
+        const icon=document.querySelector('#icon');
+        icon.onclick=function(){
+            document.body.classList.toggle('dark-theme')
+            if(document.body.classList.contains('dark-theme')){
+                icon.src='./img/sun.png';
+            }
+            else{
+                icon.src='./img/moon.png'
+            }
+        }
+    </script>
+  </body>
+</html>
